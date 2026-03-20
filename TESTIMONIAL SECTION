@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: Arial; }
+
+.testimonial {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 10px gray;
+  text-align: center;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.stars {
+  color: gold;
+}
+</style>
+</head>
+<body>
+
+<div class="testimonial">
+  <img src="https://via.placeholder.com/80">
+  <h3>Client Name</h3>
+  <p>Great service and amazing work!</p>
+  <div class="stars">★★★★★</div>
+</div>
+
+</body>
+</html>

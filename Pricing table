@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+
+<div class="pricing">
+  <div class="plan">Basic<br>₹99</div>
+  <div class="plan highlight">Standard<br>₹199</div>
+  <div class="plan">Premium<br>₹299</div>
+</div>
+
+<style>
+  .pricing {
+  display: flex;
+  justify-content: center;
+}
+
+.plan {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.highlight {
+  background: yellow;
+}
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.bar {
+  background: #ddd;
+  margin: 10px 0;
+}
+
+.progress {
+  height: 20px;
+  color: white;
+  text-align: center;
+}
+
+.html { width: 80%; background: red; }
+.css { width: 70%; background: blue; }
+.js { width: 60%; background: green; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="bar"><div class="progress html">HTML 80%</div></div>
+  <div class="bar"><div class="progress css">CSS 70%</div></div>
+  <div class="bar"><div class="progress js">JS 60%</div></div>
+</div>
+
+</body>
+</html>

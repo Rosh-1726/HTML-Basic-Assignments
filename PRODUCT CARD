@@ -1,0 +1,38 @@
+PRODUCT CARD
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  width: 250px;
+  margin: auto;
+  box-shadow: 0 4px 10px gray;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  margin-top: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200">
+  <h3>Product Name</h3>
+  <p>₹999</p>
+  <button>Add to Cart</button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+
+<div class="nav">
+  <div>Logo</div>
+  <div class="menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+<style>
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: yellow;
+}
+
+@media(max-width:600px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+  </style>
+
+</body>
+</html>
